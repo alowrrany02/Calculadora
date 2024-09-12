@@ -23,8 +23,14 @@ h1{
     
 }
 
-.d_ivs{
-    padding: 60px 100px 60px;
+.div_1{
+    padding: 60px 135px 25px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_2{
+    padding: 20px 135px 25px ;
     display: flex;
     justify-content: space-around;
 }
@@ -40,7 +46,14 @@ a{
     background-color: #ffadff;
 }*/
 input{
+    background-image: linear-gradient(45deg, #ffadff 0, #ffa0fe 16.67%, #ff8df7 33.33%, #e775ed 50%, #d589ee 66.67%, #b874f1 83.33%, #aa85f4 100%);
+    border: 2px solid black;
+    box-shadow: 6px 8px rgba(192, 60, 232, 0.304);
+    border-radius: 10px;
     font-size: 20px;
     width: 110px;
     height: 110px;
+}
+.a:hover{
+    background-color: transparent;
 }
