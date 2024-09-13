@@ -213,13 +213,13 @@ input{
         margin: 0 auto;
     }  
     .div_1{
-        padding: 60px 70px 25px ;
+        padding: 60px 40px 25px ;
         display: flex;
         justify-content: space-around;
     }  
 
     .div_2{
-        padding: 20px 70px 25px ;
+        padding: 20px 40px 25px ;
         display: flex;
         justify-content: space-around;
     }   
@@ -247,13 +247,13 @@ input{
         margin: 0 auto;
     }  
     .div_1{
-        padding: 60px 50px 25px ;
+        padding: 60px 30px 25px ;
         display: flex;
         justify-content: space-around;
     }  
 
     .div_2{
-        padding: 20px 50px 25px ;
+        padding: 20px 30px 25px ;
         display: flex;
         justify-content: space-around;
     }   
@@ -349,13 +349,13 @@ input{
         margin: 0 auto;
     }  
     .div_1{
-        padding: 60px 5px 25px ;
+        padding: 60px 30px 25px ;
         display: flex;
         justify-content: space-around;
     }  
 
     .div_2{
-        padding: 20px 5px 25px ;
+        padding: 60px 3 0px 25px ;
         display: flex;
         justify-content: space-around;
     }   
@@ -384,13 +384,13 @@ input{
     }  
     .div_1{
     
-        padding: 20px 10px 25px ;
+        padding: 20px 40px 25px ;
         display: flex;
         justify-content: space-around;
     }  
 
     .div_2{
-        padding: 20px 10px 25px ;
+        padding: 20px 40px 25px ;
         display: flex;
         justify-content: space-around;
     }   
