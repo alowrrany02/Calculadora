@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: linear-gradient(45deg, #ffadff 0, #ffa0fe 16.67%, #ff8df7 33.33%, #e775ed 50%, #c25fe3 66.67%, #9f52de 83.33%, #7c4ddc 100%);
+    background-image: linear-gradient(90deg, #ffadff 0, #ffa0fe 16.67%, #ff8df7 33.33%, #e775ed 50%, #c25fe3 66.67%, #9f52de 83.33%, #7c4ddc 100%);
 }
 
 h1{
@@ -11,14 +11,68 @@ h1{
     color: rgb(0, 0, 0);
 }
 .container{
-        width: 40%;
-        height: 600px;
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        background-color: rgb(255, 255, 255);
-        text-align: center; 
-        border-radius: 15px;
-        justify-content: center;
+    width: 40%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(235, 203, 245);
+    text-align: center; 
+    border-radius: 15px;
+    justify-content: center;
+    
+}
+
+.caixa{
+    text-align: center;
+    font-size: 25px;
+    background-image: linear-gradient(90deg, #ffadff 0, #ffa0fe 16.67%, #ff8df7 33.33%, #e775ed 50%, #cd77e9 66.67%, #ba74f4 83.33%, #aa85f5 100%);
+    border: 1.5px solid rgb(200, 145, 255);
+    border-radius: 5px;
+    width: 190px;
+    height: 50px;
+    box-shadow: 3px 4px rgba(188, 90, 217, 0.475);
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.p{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 20px;
+    background-image: linear-gradient(90deg, #ffadff 0, #ffa0fe 16.67%, #ff8df7 33.33%, #e775ed 50%, #c25fe3 66.67%, #9f52de 83.33%, #7c4ddc 100%);
+    border: 1.5px solid rgb(200, 145, 255);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-weight: 20px;
+}
+input[type="button"]{
+    text-align: center;
+    font-size: 25px;
+    background-image: linear-gradient(90deg, #ec68ec 0, #f58df3 16.67%, #ff8df7 33.33%, #e775ed 50%, #c25fe3 66.67%, #9f52de 83.33%, #7c4ddc 100%);
+    border: 1.5px solid rgb(200, 145, 255);
+    border-radius: 5px;
+    width: 110px;
+    height: 45px;
+    box-shadow: 3px 3px rgba(188, 90, 217, 0.475);
+    margin-top: 15px;
+}
+
+#resul, #resu, #res, #re {
+    font-size: 25px;
+}
+
+.voltar{
+    color: black;
+    border: 1px double black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
     
 }
