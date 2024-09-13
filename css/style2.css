@@ -42,7 +42,7 @@ input[type="number"] {
 .p{
     display: flex;
     justify-content: space-around;
-    width: 200px;
+    width: 20px;
     height: 20px;
     background-image: linear-gradient(90deg, #ffadff 0, #ffa0fe 16.67%, #ff8df7 33.33%, #e775ed 50%, #c25fe3 66.67%, #9f52de 83.33%, #7c4ddc 100%);
     border: 1.5px solid rgb(200, 145, 255);

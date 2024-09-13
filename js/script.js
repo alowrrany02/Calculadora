@@ -1,10 +1,10 @@
 function somar(){
-    var som1 = window.document.getElementById('soma1')
-    var som2 = window.document.getElementById('soma2')
-    var r = window.document.getElementById('resul')
-    var n1 = parseFloat(som1.value)
-    var n2 = parseFloat(som2.value)
-    var s = n1 + n2
+    let som1 = window.document.getElementById('soma1')
+    let som2 = window.document.getElementById('soma2')
+    let r = window.document.getElementById('resul')
+    let n1 = parseFloat(som1.value)
+    let n2 = parseFloat(som2.value)
+    let s = n1 + n2
     r.innerHTML = `O resultado da soma entre ${n1} e ${n2} é igual a <strong><i>${s}</i></strong>`
 }
 function sub(){
